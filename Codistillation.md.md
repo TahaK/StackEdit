@@ -29,8 +29,6 @@ Synchronized training doesn't  scale beyond a certain point.
 
 3(b) Synchronization of the checkpoints can be done in 50 steps
 
-![](prediction_churn.png)
-
 Codistillation helps reduce the random variability in the training procedure
 
 ### Comments
@@ -45,5 +43,5 @@ Imagine a layer branching of to 10 branches of depth 2 and gathering the branche
 
 This is of course not relevant if you cannot match the activation maps of one network to the activation maps of another network. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNDA4MzkxMV19
+eyJoaXN0b3J5IjpbMTgxMTc1ODM1Nl19
 -->
